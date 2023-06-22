@@ -100,6 +100,13 @@ div.right-panel
   width: 135px;
   
 }
+.weather p{
+  
+  font-size: 30px;
+  color: rgba(0,0,0,0.9);
+  font-weight: 100;
+
+}
 
     </style>
     
@@ -109,7 +116,7 @@ div.right-panel
 
       <form action="" class="d-flex">
         
-        <input type="text" class="inp form-control ms-2 mt-3 ">
+        <input type="text" class="inp form-control ms-2 mt-3 " required>
      
       </form>
       
@@ -120,14 +127,16 @@ div.right-panel
       <div class="widget">
             
         <div class="left-panel panel">
-            <div class="date">
-                Monday, 20 Aug 2018
-            </div>
             <div class="city">
-                Mumbai
+                
             </div>
-            <div class="temp">
-               27
+            <div class="d-flex" >
+              <div class="weather"> 
+                <p>Weather:</p>
+              </div>
+              <div class="temp">
+              
+              </div>
             </div>
         </div>
       
